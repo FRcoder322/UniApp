@@ -2,68 +2,94 @@
 </script>
 
 <template>
-    <div id = 'Landingpage'>
-        <h1>Welcome to IIU</h1>
+  <v-content>
+    <v-carousel>
+  <v-carousel-item
+    src="https://img.freepik.com/free-photo/low-rise-building_1127-3268.jpg?w=900&t=st=1696079616~exp=1696080216~hmac=690a3e42af121d5bd9d11f43746ef029cc245f7f1d1258a6fbf1850e047564e8"
+    cover
+  ></v-carousel-item>
 
-    <div class="logo-container">
-      <img src="./../assets/logo.jpg"  alt="University logo" height="100px" width="100px" margin:left>
-      <div class="university-name">
-        <h1>INSTITUTE OF INNOVATION<br> UNIVERSITY</h1>
-      </div>
+  <v-carousel-item
+    src="https://img.freepik.com/free-photo/students-paying-attention-class_23-2148844732.jpg?size=626&ext=jpg&ga=GA1.1.394056463.1696005191&semt=ais"
+    cover
+  ></v-carousel-item>
+
+  <v-carousel-item
+    src="https://img.freepik.com/premium-photo/portrait-black-teenage-girl-using-laptop-school-during-engineering-class-with-male-teacher_236854-42295.jpg?size=626&ext=jpg&ga=GA1.1.394056463.1696005191&semt=ais"
+    cover
+  ></v-carousel-item>
+</v-carousel>
+    <div class="block">
+      <v-container>
+        <p>The "Institute of Innovation University" is a higher education institution focused on fostering innovation, creativity, and academic excellence.</p>
+      </v-container>
     </div>
-      <ul>
-        <li><a href="#Courses">Courses</a></li>
-        <li><a href="#Student life">student life</a></li>
-        <li><a href="#International">International</a></li>
-        <li><a href="#Research">Research</a></li>
-        <li><a href="#Business">Business</a></li>
-        <li><a href="#About IIU">About IIU</a></li>
-      </ul>
-    </div>
+  <v-container
+    class="fill-height"
+    fluid
+    style="min-height: 434px"
+  >
+    <v-fade-transition mode="out-in">
+      <v-row>
+        <v-col cols="6">
+          <v-card>
+            <v-img
+              src="https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?size=626&ext=jpg&ga=GA1.1.394056463.1696005191&semt=sph"
+              height="300"
+              cover
+              class="bg-grey-lighten-2"
+            ></v-img>
+            <v-card-title class="text-h6">
+             <p>Welcome to the Institute of Innovation University, where we prioritize <br>providing an exceptional academic environment for our students. <br>Our campus is meticulously designed to offer a perfect blend of state-of-the-art classrooms<br> inviting study spaces, and comfortable hostel accommodations, <br>all contributing to a conducive and enriching learning experience.</p>
+            </v-card-title>
+          </v-card>
+        </v-col>
 
-  <section id="home">
-    <div>
-    <h2>Welcome to our University</h2>
-    <p> Welcome to our University<br>Discover a world of knowledge and innovation.</p>
-    </div>
-    <img src="./../assets/university.jpg" alt="IIU UNIVERSITY">
-    <div class="text-overlay">
-      <div class ="wrap">
-        <div class ="breadcrumbs">
-          <ul>
-            <li><a href ="/">Home</a></li>
-            <li>
-              <a href ="/Courses /">Courses</a>
-            </li>
-            <li>
-            <li class ="Current page">Undergradute</li>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-      <h3>ARE YOU APPLYING FOR UNDERGRADUATE ENTRY IN 2024 ?</h3>
-      <h4>Our  IIU application deadline is 6pm 15 October. Make sure you're registered for any course admission tests by 1 October</h4>
-  </section>
+        <v-col cols="6">
+          <v-card>
+            <v-img
+              src="https://img.freepik.com/premium-photo/happy-students-with-diplomas-outdoors-graduation-ceremony_495423-58230.jpg?w=900"
+              height="300"
+              cover
+              class="bg-grey-lighten-2"
+            ></v-img>
+            <v-card-title class="text-h6">
+              <p font size="5rem">Our graduation ceremonies are a reflection of the commitment to <br>academic excellence and the celebration of the successes of our students.<br> We take pride in witnessing our graduates stepping into the world,<br> well-prepared to make a positive impact and continue their journey <br>of lifelong learning.</p>
+            </v-card-title>
+          </v-card>
+        </v-col>
 
-  <div>
-  <nav id="about">
-    <h5>About Our University</h5>
-      <div class="image-container">
-      <img src="./../assets/biotech.jpg" alt="IIU UNIVERSITY">
-      <h6>The Future of work and AI <br>Dr San on why the demand for<br> certain occupations is skyrocketing </h6>
-      <img src="./../assets/labs.jpg" alt="sports">
-      <div class="image-text">
-        <h7>Innovation Lab</h7>
-        <h7>Creating engaging and informative text for a university sports section <br>requires understanding the university's sports offerings,<br> achievements, ethos, and goals.
-        </h7>
-      </div>
-      <img src="./../assets/sport.jpg" alt="labs">
-      <h8>Beyond academics, the university offers a rich tapestry of extracurricular<br> activities and sports, providing a well-rounded development<br> for every student </h8>
-      </div>
-  </nav>
-  </div>
+        <v-col cols="6">
+          <v-card>
+            <v-img
+              src="https://img.freepik.com/premium-photo/rugby-sports-running-with-team-field-together-game-match-preparation-competition-fitness-training-teamwork-with-group-men-outdoor-grass-club-practice_590464-216348.jpg?w=900"
+              max-height="300"
+              cover
+              class="bg-grey-lighten-2"
+            ></v-img>
+            <v-card-title class="text-h6">
+              <p>At the Institute of Innovation University, we believe in the holistic <br>development of our students, and a key aspect of this development<br> is staying physically active and fostering a spirit of sportsmanship. <br>Our campus provides a vibrant and encouraging environment for students <br>to engage in a variety of sports and fitness activities.</p>
+            </v-card-title>
+          </v-card>
+        </v-col>
 
-    <p>A condensed account of key information or achievements pertinent to a university,<br> facilitating a quick grasp of its academic and institutional features.</p>
-
+        <v-col cols="6">
+          <v-card>
+            <v-img
+              src="https://img.freepik.com/free-photo/african-woman-biochemist-researcher-checking-manifestations-vaccine-working-modern-equipped-laboratory-multiethnic-doctors-examining-virus-evolution-using-high-tech-researching-diagnosis_482257-3747.jpg?size=626&ext=jpg&ga=GA1.2.394056463.1696005191&semt=ais"
+              max-height="300"
+              cover
+              class="bg-grey-lighten-2"
+            ></v-img>
+            <v-card-title class="text-h6">
+             <p> Cutting-Edge Technology: Our classrooms are equipped with modern<br> audio-visual aids, interactive whiteboards, and high-speed internet access, <br>facilitating an engaging and dynamic learning experience.<br>
+            <br>
+          <br></p>
+            </v-card-title>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-fade-transition>
+  </v-container>
+  </v-content>
 </template>
